@@ -3,9 +3,9 @@ import './UserCard.css'
 function UserCard(props) {
     return (
         <div className='Logo-card'>
-            <img className="logo-barca" src={props.image} alt="Escudo del Barca"/>
+            <img className="logo" src={props.image} alt="Logo/Imagen"/>
             <h3>{props.name}</h3>
-            <p>Equipo de {props.country}</p>
+            <p>{props.country}</p>
         </div>
     )
 }
