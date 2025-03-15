@@ -1,5 +1,6 @@
 import './App.css'
 import Contador from './components/Contador';
+import Montaje from './components/Montaje';
 import Saludo from './components/Saludo';
 import InputTexto from './components/TextoState';
 import UserCard from './components/UserCard';
@@ -29,6 +30,8 @@ function App() {
       <Contador></Contador>
       
       <InputTexto></InputTexto>
+
+      <Montaje></Montaje>
     </>
   )
 }
