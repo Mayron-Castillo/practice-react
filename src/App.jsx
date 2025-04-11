@@ -1,8 +1,10 @@
 import './App.css'
+import BackImage from './components/BackImage';
 import Contador from './components/Contador';
 import Montaje from './components/Montaje';
 import Saludo from './components/Saludo';
 import InputTexto from './components/TextoState';
+import ToggleTema from './components/ToggleTema';
 import UserCard from './components/UserCard';
 
 function App() {
@@ -32,6 +34,10 @@ function App() {
       <InputTexto></InputTexto>
 
       <Montaje></Montaje>
+
+      <ToggleTema></ToggleTema>
+
+      <BackImage></BackImage>
     </>
   )
 }
